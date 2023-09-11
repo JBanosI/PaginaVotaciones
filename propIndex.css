@@ -1,0 +1,46 @@
+ .contenedor {
+    position: relative;
+    }
+    .ale {
+    position: fixed; /* Necesario para que el z-index funcione */
+    z-index: 1; /* La primera imagen se coloca atras */
+    width: 40em;
+    height: 37em;
+    top: 10%;
+    left: 0.5%;
+    opacity: 0.8;
+    }
+    .ver {
+    position: absolute;
+    z-index: 2; /* La segunda imagen se coloca encima */
+    width: 15em;
+    height: 3m;
+    top: 85%;
+    left: 23%;
+    }
+    .contet {
+    position: relative;
+    }
+    .delf {
+    position: fixed; /* Necesario para que el z-index funcione */
+    z-index: 1; /* La primera imagen se coloca debajo */
+    width: 35em;
+    height: 37em;
+    top: 10%;
+    left: 55%;
+    opacity: 0.8;
+    }
+    .verd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; /* La segunda imagen se coloca encima */
+    width: 15em;
+    height: 3m;
+    top: 85%;
+    left: 57%;
+    }
+    .resaltar:hover {
+    opacity: 1; /* Reduce la opacidad de la imagen cuando se coloca el cursor encima */
+    transform: scale(1.2);
+    }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Contacto y Encuesta de Satisfacción</title>
+    <link rel="stylesheet" type="text/css" href="styleform.css">
+</head>
+<body style="background: url('imagenes/fondo_enc.jpg') no-repeat fixed; background-size:cover;">
+	<form class="forma">
+		<label for="nombre">Nombre:</label>
+		<input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+		
+		<label for="email">Correo electronico:</label>
+		<input type="email" id="email" name="email" placeholder="Ingresa tu correo electronico" required>
+
+		<label for="satisfaccion">Que tal te parecieron las propuestas de las candidatas?</label>
+		<select id="satisfaccion" name="satisfaccion" required>
+			<option value="">Selecciona una opcion</option>
+			<option value="excelente">Excelente</option>
+			<option value="muybueno">Muy bueno</option>
+			<option value="bueno">Bueno</option>
+			<option value="regular">Regular</option>
+			<option value="malo">Malo</option>
+		</select>
+
+		<label for="comentarios">Comentarios:</label>
+		<textarea id="comentarios" name="comentarios" placeholder="Ingresa tus comentarios o sugerencias"></textarea>
+		
+		<input type="submit" value="Enviar">
+        <a href="index.html"><img class="atras" src="imagenes/atras_v.png"</a>
+	</form>
+</body>
+</html>

@@ -1,0 +1,103 @@
+
+.atras{
+    position: fixed;
+    width: 4em;
+    height: 4em;
+    top: 5%;
+}
+.face{
+    position: fixed;
+    width: 4em;
+    height: 4em;
+    top: 5%;
+    left: 90%;
+}
+.insta{
+    position: fixed;
+    width: 4em;
+    height: 4em;
+    top: 5%;
+    left: 85%;
+}
+@font-face {
+font-family: "saphira";
+src: url('fuentes/Saphira.otf');
+}
+.H1 {
+font-family: saphira, sans-serif;
+color:brown;
+font-size: 200%;
+position: fixed;
+top:20%;
+left:3%;
+}
+.H2 {
+font-family: saphira, sans-serif;
+color:brown;
+font-size: 200%;
+position: fixed;
+top:20%;
+left:25%;
+}
+.hover-img {
+display: none;
+}
+a:hover .hover-img {
+display: block;
+}
+.quien{
+    position: fixed;
+    width: 50em;
+    height: 25em;
+    top:30%;
+    left: 15%;
+}
+.pa1{
+    position: fixed;
+    width: 40em;
+    height: 25em;
+    top:35%;
+    left:1%;
+}
+.pa2{
+    position: fixed;
+    width: 40em;
+    height: 25em;
+    top:35%;
+    left: 51%;
+}
+.video{
+    position: fixed;
+    top: 35%;
+    left: 15%;
+}
+.H3{
+font-family: saphira, sans-serif;
+color:brown;
+font-size: 400%;
+position: fixed;
+top:40%;
+left:70%;
+}
+/* Estilos para el checkbox */
+input[type="checkbox"] {
+position: absolute;
+top: 50%;
+left: 82%;}
+
+input[type="checkbox"] {
+transform: scale(3);
+-webkit-transform: scale(3);
+-moz-transform: scale(3);
+-ms-transform: scale(3);
+-o-transform: scale(3);
+}
+.h{
+    font-family: languita, sans-serif;
+    color:rgb(31, 45, 194);
+    font-size: 150%;
+    position: fixed;
+    top:70%;
+    left:70%;
+    text-decoration: underline;
+}
